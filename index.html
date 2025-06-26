@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Prtfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <!-- *************************Navbar************************* -->
+    <header class="header">
+      <a href="#" class="logo">Portfolio</a>
+      <i class="bx bx-menu" id="menu" style="color: #ffffff"></i>
+      <nav class="navbar">
+        <a href="#home" style="--vlr: 1" class="active">Home</a>
+        <a href="#about" style="--vlr: 2">About Me</a>
+        <a href="#my project" style="--vlr: 3">My Project</a>
+        <a href="#portofolio" style="--vlr: 4">Portofolio</a>
+        <a href="#contact" style="--vlr: 5">Contact Me</a>
+      </nav>
+    </header>
+    <!-- *************************Home Section************************* -->
+    <section class="home" id="home">
+      <div class="text-content">
+        <h1>I'm Lina Nurmilati</h1>
+        <div class="text-animation">
+          <h2>Photographer</h2>
+        </div>
+        <p>
+          Aspiring photographer specializing in product, architectural, nature, and macro animal photography. Seeking opportunities to collaborate on creative projects and expand visual storytelling skills. Proficient in
+          lighting, composition, and post-processing using Adobe Lightroom and Photoshop. Skilled in capturing detail, texture, and form to highlight the essence of each subject.
+        </p>
+        <div class="btn-section">
+          <button class="btn" onclick="downloadResume();">Resume</button>
+          <button class="btn" onclick="openGmail();">Let's Talk</button>
+        </div>
+        <div class="social-media">
+          <a href="https://www.instagram.com/linn.nrmila/profilecard/?igsh=MXB1ZXUzYnR6c3hmMA=="> <i class="bx bxl-instagram" style="--vlr: 7"></i></a>
+          <a href="https://www.facebook.com/lina.nurmilati?mibextid=ZbWKwL"><i class="bx bxl-facebook" style="--vlr: 8"></i></a>
+          <a href="mailto:nurmilati018@gmail.com"><i class="bx bxl-gmail" style="--vlr: 9"></i></a>
+          <a href="https://www.linkedin.com/in/lina-nurmilati-103388371/"><i class="bx bxl-linkedin" style="--vlr: 10"></i></a>
+        </div>
+      </div>
+      <img src="/img/lina (1).jpg" alt="" />
+    </section>
+    <!-- *************************About Section************************* -->
+    <section class="about" id="about">
+      <h2 class="title">About <span>Me</span></h2>
+      <img src="img/lina (1).jpg" alt="" class="aboutImg" />
+      <div class="text-content2">
+        <h2>Photographer</h2>
+        <p>
+          Aspiring photographer with a keen eye for detail and a passion for visual storytelling. Seeking opportunities to capture compelling narratives through the lens, exploring diverse subjects from urban landscapes to intricate natural elements. Proficient in composition, lighting, and post-processing, with a dedication to continuous learning and creative exploration.
+        </p>
+        <button class="btn">Read More</button>
+      </div>
+    </section>
+
+    <!-- *************************Projects Section************************* -->
+
+    <!-- My Projects Section -->
+    <section class="container" id="my project">
+      <h2 class="section-title">My Projects</h2>
+      <div class="grid">
+        <div class="grid-item">
+          <div class="card">
+            <img src="img/kalender.jpg" alt="Project 1" />
+            <h4>Kota Lama Semarang Heritage Calendar</h4>
+            <p>A physical desktop calendar created to celebrate Semarang's Old Town, featuring high-quality architectural photography of its heritage sites combined with graphic design elements.s</p>
+            <button href="#" class="btn">View Project</button>
+          </div>
+        </div>
+        <div class="grid-item">
+          <div class="card">
+            <img src="img/brosur.jpg" alt="Project 2" />
+            <h4>Kopi Gandik Coffee Shop Brochure</h4>
+            <p>Project Setup:  Design and create a trifold marketing brochure for "Kopi Gandik," a coffee shop highlighting its special coffee beans, unique selling propositions, founder's story, and journey, featuring attractive photography and illustrative elements.</p>
+            <button href="#" class="btn">View Project</button>
+          </div>
+        </div>
+        <div class="grid-item">
+          <div class="card">
+            <img src="img/mjlh.jpg" alt="Project 3" />
+            <h4>Magazine Cover Design</h4>
+            <p>Created a magazine cover, blending a featured portrait with bold typography and article headlines for a dynamic visual.</p>
+            <button href="#" class="btn">View Project</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- portofolio -->
+    <section class="container" id="portofolio">
+      <h2 class="section-title">Portofolio</h2>
+      <div class="grid">
+        <div class="grid-item">
+          <div class="card">
+            <img src="img/pusat.jpeg" alt="portofolio 1" />
+            <h4> Architectural Photography</h4>
+            <p> The grand white colonial-era building in Semarang's Old Town stands prominently under a cloudy sky, proudly displaying the Indonesian flag.</p>
+          </div>
+        </div>
+        <div class="grid-item">
+          <div class="card">
+            <img src="img/sepeda.jpg" alt="portofolio 2" />
+            <h4>Street Photography</h4>
+            <p>This close-up shot features the detailed wheels of a classic bicycle, parked on a wet, tiled surface</p>
+          </div>
+        </div>
+        <div class="grid-item">
+          <div class="card">
+            <img src="img/gereja.jpg" alt="portofolio 3" />
+            <h4>Architectural Photography</h4>
+            <p>This low-angle shot captures the grandeur of the GPIB Immanuel Church (Blenduk Church) in Semarang's Old Town, showcasing its distinctive red dome and classical architecture amidst a historical urban setting.</p>
+          </div>
+        </div>
+        <div class="grid-item">
+          <a
+            href="https://onedrive.live.com/?redeem=aHR0cHM6Ly8xZHJ2Lm1zL2IvYy9hYWRlNjIyMmIwYTliMmQ4L0VjZlJ4WEhiQU01UGpqV2NwOWstVnprQlRwN2FIc3JfTXFFNWpfeXRKdURHb0E&cid=AADE6222B0A9B2D8&id=AADE6222B0A9B2D8%21s71c5d1c700db4fce8e359ca7d93e5739&parId=AADE6222B0A9B2D8%21122&o=OneUp"
+            target="_blank"
+            style="text-decoration: none"
+          >
+            <div class="card">
+              <img src="img/antik.jpeg" alt="portofolio 4" />
+              <h4>Still Life Photography</h4>
+              <p> Shelves filled with an extensive collection of intricately patterned antique ceramic vases and various decorative items create a visually rich display in an antique shop</p>
+            </div>
+          </a>
+        </div>
+        <div class="grid-item">
+          <div class="card">
+            <img src="img/siwil.jpg" alt="portofolio 5" />
+            <h4> Still Life Photography</h4>
+            <p> A vibrant and eclectic display of various vintage items and potted plants adorns the exterior of "Siwil Art," creating a unique and colorful street scene.</p>
+          </div>
+        </div>
+        <div class="grid-item">
+          <div class="card">
+            <img src="img/spiegel.jpeg" alt="portofolio 6" />
+            <h4>Architectural Photography</h4>
+            <p>This low-angle shot captures the distinctive white facade of the "Spiegel" building in Semarang's Old Town, featuring its historic architecture under a bright sky.</p>
+          </div>
+        </div>
+        <div class="grid-item">
+          <div class="card">
+            <img src="img/serangga.jpg" alt="portofolio 7" />
+            <h4> Macro Photography </h4>
+            <p>A close-up shot reveals a dark insect perched on a vibrant green rice stalk, with soft sunlight illuminating the background.</p>
+          </div>
+        </div>
+        <div class="grid-item">
+          <div class="card">
+            <img src="img/semut.jpg" alt="portofolio 8" />
+            <h4>Macro Photography</h4>
+            <p>This detailed close-up shows several ants meticulously crawling along a textured green plant stem, highlighted by a soft, natural light.</p>
+          </div>
+        </div>
+        <div class="grid-item">
+          <div class="card">
+            <img src="img/capung.jpg" alt="portofolio 9" />
+            <h4>Macro Photography</h4>
+            <p>A black and green dragonfly with delicate wings rests amongst tall green reeds, with a warm sun flare illuminating the top of the frame.</p>
+          </div>
+        </div>
+        <div class="grid-item">
+          <div class="card">
+            <img src="img/rumah.jpg" alt="portofolio 10" />
+            <h4>Architectural Photography / Nature Photography</h4>
+            <p>A rustic wooden hut with a thatched roof is nestled within a dense forest, partially obscured by lush green foliage in the foreground.</p>
+          </div>
+        </div>
+        <div class="grid-item">
+          <div class="card">
+            <img src="img/hutan kbt.jpg" alt="portofolio 11" />
+            <h4>Nature Photography</h4>
+            <p>Sunbeams pierce through the tall, slender trees of a dense forest, creating a dramatic and serene pathway on the earthy ground</p>
+          </div>
+        </div>
+        <div class="grid-item">
+          <div class="card">
+            <img src="img/htn chy.jpg" alt="portofolio 12" />
+            <h4>Nature Photography </h4>
+            <p>Bright sun rays illuminate the misty canopy of a towering forest, creating a ethereal and atmospheric natural scene.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- *************************Contact me************************* -->
+    <section class="contact" id="contact">
+      <h2 class="title">Contact<span>Me</span></h2>
+      <form action="#" id="">
+        <div class="input-box">
+          <input type="text" required placeholder="Full Name" />
+          <input type="email" required placeholder="Email" />
+        </div>
+        <div class="input-box">
+          <input type="tel" required placeholder="Mobile Number" />
+          <input type="email" required placeholder="Subject For" />
+        </div>
+        <textarea name="" id="" cols="30" rows="10" placeholder="Message" required></textarea>
+        <input type="submit" value="Send Message" class="btn" />
+      </form>
+    </section>
+    <footer>
+      <div class="text">
+        <p>Created with love by <a href="https://www.instagram.com/linn.nrmila/profilecard/?igsh=MXB1ZXUzYnR6c3hmMA=="class="text-white fw-bold">Lina Nurmilati</a></p>
+      </footer></p>
+      </div>
+      <a href="#"> <i class="bx bx-up-arrow-alt"></i></a>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+
+  <script>
+    function downloadResume() {
+      var resumeUrl = '.ccv_lina.pdf';
+
+      var link = document.createElement('a');
+      link.href = resumeUrl;
+      link.download = 'cv_lina.pdf';
+      document.body.appendChild(link);
+      link.click();
+      document.body.removeChild(link);
+    }
+  </script>
+
+  <script>
+    function openGmail() {
+      window.location.href = 'mailto:nurmilati018@gmail.com';
+    }
+  </script>
+</html>
